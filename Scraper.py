@@ -37,7 +37,7 @@ def Naval():
 
         list.append(dic)
 
-    return json.loads(list)
+    return list
     # json.dump(list,open('ScrapedData/Naval.json','w', encoding='utf-8'), indent=2, ensure_ascii=False)
 
 
